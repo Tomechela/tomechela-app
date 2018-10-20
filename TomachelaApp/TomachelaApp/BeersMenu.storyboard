@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="R7A-4w-SQV">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="lFS-TO-G1h">
+            <objects>
+                <viewController id="R7A-4w-SQV" customClass="ViewController" customModule="TomachelaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u0e-eT-b3v">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="145" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Ecf-sE-VU5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="145" id="C24-LX-Bcc" userLabel="cell" customClass="CategoryRow" customModule="TomachelaApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="22" width="375" height="145"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="C24-LX-Bcc" id="rBX-13-EVx">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="144.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="3HR-K2-EeH">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="144.5"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="5" minimumInteritemSpacing="5" id="5FF-BK-8h3">
+                                                        <size key="itemSize" width="109" height="134.5"/>
+                                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                        <inset key="sectionInset" minX="5" minY="5" maxX="5" maxY="5"/>
+                                                    </collectionViewFlowLayout>
+                                                    <cells>
+                                                        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="beerCell" id="iW4-6X-5ZS" userLabel="BeerCell" customClass="BeerCell" customModule="TomachelaApp" customModuleProvider="target">
+                                                            <rect key="frame" x="5" y="5" width="109" height="134.5"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                                                <rect key="frame" x="0.0" y="0.0" width="109" height="134.5"/>
+                                                                <autoresizingMask key="autoresizingMask"/>
+                                                                <subviews>
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noun_Beer_1839075" translatesAutoresizingMaskIntoConstraints="NO" id="Uxq-YM-F3e">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="109" height="134.5"/>
+                                                                        <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    </imageView>
+                                                                </subviews>
+                                                            </view>
+                                                            <constraints>
+                                                                <constraint firstItem="Uxq-YM-F3e" firstAttribute="leading" secondItem="iW4-6X-5ZS" secondAttribute="leading" id="8q7-oP-KDK"/>
+                                                                <constraint firstAttribute="bottom" secondItem="Uxq-YM-F3e" secondAttribute="bottom" id="hAK-7x-2h6"/>
+                                                                <constraint firstAttribute="trailing" secondItem="Uxq-YM-F3e" secondAttribute="trailing" id="hlF-UP-3R5"/>
+                                                                <constraint firstItem="Uxq-YM-F3e" firstAttribute="top" secondItem="iW4-6X-5ZS" secondAttribute="top" id="xdz-Ff-ccz"/>
+                                                            </constraints>
+                                                        </collectionViewCell>
+                                                    </cells>
+                                                    <connections>
+                                                        <outlet property="dataSource" destination="C24-LX-Bcc" id="ZOr-gk-2i6"/>
+                                                        <outlet property="delegate" destination="C24-LX-Bcc" id="96V-q4-Nbl"/>
+                                                    </connections>
+                                                </collectionView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="3HR-K2-EeH" firstAttribute="top" secondItem="rBX-13-EVx" secondAttribute="top" id="0bC-ws-euP"/>
+                                                <constraint firstItem="3HR-K2-EeH" firstAttribute="leading" secondItem="rBX-13-EVx" secondAttribute="leading" id="gu1-oW-BKU"/>
+                                                <constraint firstAttribute="bottom" secondItem="3HR-K2-EeH" secondAttribute="bottom" id="hNg-ob-Sy9"/>
+                                                <constraint firstAttribute="trailing" secondItem="3HR-K2-EeH" secondAttribute="trailing" id="uhr-7l-q5t"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="collectionView" destination="3HR-K2-EeH" id="FOY-en-pJI"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="R7A-4w-SQV" id="oA8-bg-NSg"/>
+                                    <outlet property="delegate" destination="R7A-4w-SQV" id="38p-la-Scs"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ecf-sE-VU5" firstAttribute="leading" secondItem="u0e-eT-b3v" secondAttribute="leading" id="FEw-oS-nGK"/>
+                            <constraint firstAttribute="trailing" secondItem="Ecf-sE-VU5" secondAttribute="trailing" id="Izf-fO-6gT"/>
+                            <constraint firstItem="Ecf-sE-VU5" firstAttribute="top" secondItem="u0e-eT-b3v" secondAttribute="top" id="PWm-lH-X19"/>
+                            <constraint firstAttribute="bottom" secondItem="Ecf-sE-VU5" secondAttribute="bottom" id="SZQ-U6-zPs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fa9-Cs-72c"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RRs-tl-6w9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WtQ-ID-cxZ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="31.934032983508249"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="noun_Beer_1839075" width="700" height="700"/>
+    </resources>
+</document>
