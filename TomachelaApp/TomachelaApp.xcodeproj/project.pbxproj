@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C815893217B83E00018FB6C /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C815892217B83E00018FB6C /* PaymentViewController.swift */; };
+		8C815895217B84600018FB6C /* Openpay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C815894217B845F0018FB6C /* Openpay.framework */; };
+		8C815896217B84600018FB6C /* Openpay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8C815894217B845F0018FB6C /* Openpay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8C815899217B86930018FB6C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C815898217B86930018FB6C /* ResultViewController.swift */; };
+		8C81589E217B9CE50018FB6C /* Payment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C81589C217B9CE50018FB6C /* Payment.storyboard */; };
 		B16CAEC3217B77E200499898 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16CAEC2217B77E200499898 /* AppDelegate.swift */; };
 		B16CAEC5217B77E200499898 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16CAEC4217B77E200499898 /* ViewController.swift */; };
 		B16CAEC8217B77E200499898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16CAEC6217B77E200499898 /* Main.storyboard */; };
@@ -14,7 +19,25 @@
 		B16CAECD217B77E300499898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16CAECB217B77E300499898 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8C815897217B84600018FB6C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8C815896217B84600018FB6C /* Openpay.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8C815892217B83E00018FB6C /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		8C815894217B845F0018FB6C /* Openpay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Openpay.framework; sourceTree = "<group>"; };
+		8C815898217B86930018FB6C /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		8C81589D217B9CE50018FB6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TomachelaApp/Base.lproj/Payment.storyboard; sourceTree = "<group>"; };
 		B16CAEBF217B77E200499898 /* TomachelaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomachelaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16CAEC2217B77E200499898 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B16CAEC4217B77E200499898 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C815895217B84600018FB6C /* Openpay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +62,8 @@
 		B16CAEB6217B77E200499898 = {
 			isa = PBXGroup;
 			children = (
+				8C81589C217B9CE50018FB6C /* Payment.storyboard */,
+				8C815894217B845F0018FB6C /* Openpay.framework */,
 				B16CAEC1217B77E200499898 /* TomachelaApp */,
 				B16CAEC0217B77E200499898 /* Products */,
 			);
@@ -55,11 +81,13 @@
 			isa = PBXGroup;
 			children = (
 				B16CAEC2217B77E200499898 /* AppDelegate.swift */,
+				8C815892217B83E00018FB6C /* PaymentViewController.swift */,
 				B16CAEC4217B77E200499898 /* ViewController.swift */,
 				B16CAEC6217B77E200499898 /* Main.storyboard */,
 				B16CAEC9217B77E300499898 /* Assets.xcassets */,
 				B16CAECB217B77E300499898 /* LaunchScreen.storyboard */,
 				B16CAECE217B77E300499898 /* Info.plist */,
+				8C815898217B86930018FB6C /* ResultViewController.swift */,
 			);
 			path = TomachelaApp;
 			sourceTree = "<group>";
@@ -74,6 +102,7 @@
 				B16CAEBB217B77E200499898 /* Sources */,
 				B16CAEBC217B77E200499898 /* Frameworks */,
 				B16CAEBD217B77E200499898 /* Resources */,
+				8C815897217B84600018FB6C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +154,7 @@
 				B16CAECD217B77E300499898 /* LaunchScreen.storyboard in Resources */,
 				B16CAECA217B77E300499898 /* Assets.xcassets in Resources */,
 				B16CAEC8217B77E200499898 /* Main.storyboard in Resources */,
+				8C81589E217B9CE50018FB6C /* Payment.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,13 +166,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				B16CAEC5217B77E200499898 /* ViewController.swift in Sources */,
+				8C815893217B83E00018FB6C /* PaymentViewController.swift in Sources */,
 				B16CAEC3217B77E200499898 /* AppDelegate.swift in Sources */,
+				8C815899217B86930018FB6C /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		8C81589C217B9CE50018FB6C /* Payment.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C81589D217B9CE50018FB6C /* Base */,
+			);
+			name = Payment.storyboard;
+			sourceTree = "<group>";
+		};
 		B16CAEC6217B77E200499898 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -281,7 +321,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A3K92PVTSQ;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TomachelaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,7 +343,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A3K92PVTSQ;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TomachelaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
