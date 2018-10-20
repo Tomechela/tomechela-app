@@ -26,6 +26,7 @@
 		B1F4DDF5217B9D490000CC7D /* BeersMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F4DDF4217B9D490000CC7D /* BeersMenu.storyboard */; };
 		B1F4DDFB217BA3290000CC7D /* Openpay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F4DDFA217BA3280000CC7D /* Openpay.framework */; };
 		B1F4DDFC217BA3290000CC7D /* Openpay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1F4DDFA217BA3280000CC7D /* Openpay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C08043EE217BAA7E0097397D /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C08043ED217BAA7E0097397D /* LoginView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +64,7 @@
 		B16CAED6217B826400499898 /* BeerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerCell.swift; sourceTree = "<group>"; };
 		B1F4DDF4217B9D490000CC7D /* BeersMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BeersMenu.storyboard; sourceTree = "<group>"; };
 		B1F4DDFA217BA3280000CC7D /* Openpay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Openpay.framework; sourceTree = "<group>"; };
+		C08043ED217BAA7E0097397D /* LoginView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				B1F4DDF4217B9D490000CC7D /* BeersMenu.storyboard */,
 				8C815898217B86930018FB6C /* ResultViewController.swift */,
 				B144C32D2183DD4D008B3856 /* DetailViewController.swift */,
+				C08043ED217BAA7E0097397D /* LoginView.storyboard */,
 			);
 			path = TomachelaApp;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				B16CAECA217B77E300499898 /* Assets.xcassets in Resources */,
 				B16CAEC8217B77E200499898 /* MyMain.storyboard in Resources */,
 				8C81589E217B9CE50018FB6C /* Payment.storyboard in Resources */,
+				C08043EE217BAA7E0097397D /* LoginView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
