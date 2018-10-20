@@ -12,6 +12,8 @@
 		B16CAEC8217B77E200499898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16CAEC6217B77E200499898 /* Main.storyboard */; };
 		B16CAECA217B77E300499898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16CAEC9217B77E300499898 /* Assets.xcassets */; };
 		B16CAECD217B77E300499898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16CAECB217B77E300499898 /* LaunchScreen.storyboard */; };
+		B16CAED5217B822900499898 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16CAED4217B822900499898 /* CategoryRow.swift */; };
+		B16CAED7217B826400499898 /* BeerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16CAED6217B826400499898 /* BeerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B16CAEC9217B77E300499898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B16CAECC217B77E300499898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B16CAECE217B77E300499898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B16CAED4217B822900499898 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		B16CAED6217B826400499898 /* BeerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				B16CAEC2217B77E200499898 /* AppDelegate.swift */,
 				B16CAEC4217B77E200499898 /* ViewController.swift */,
+				B16CAED4217B822900499898 /* CategoryRow.swift */,
+				B16CAED6217B826400499898 /* BeerCell.swift */,
 				B16CAEC6217B77E200499898 /* Main.storyboard */,
 				B16CAEC9217B77E300499898 /* Assets.xcassets */,
 				B16CAECB217B77E300499898 /* LaunchScreen.storyboard */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B16CAEC5217B77E200499898 /* ViewController.swift in Sources */,
+				B16CAED7217B826400499898 /* BeerCell.swift in Sources */,
+				B16CAED5217B822900499898 /* CategoryRow.swift in Sources */,
 				B16CAEC3217B77E200499898 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +295,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ludify.rps.TomachelaApp;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.tomechela.TomachelaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,7 +313,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ludify.rps.TomachelaApp;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.tomechela.TomachelaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
