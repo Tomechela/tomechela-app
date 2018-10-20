@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Openpay-Swift.h</key>
 		<data>
-		37GVzR6emkuOW1gU5TuaMxxyaEc=
+		5y3TReqqZbmwIyDWamUOIndN8u0=
 		</data>
 		<key>Headers/Openpay.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		v8asujRzfoph0lyYWx3Dw5vHNp4=
+		oA5SAnfMmheZLrucAuzbEDlelcQ=
 		</data>
 		<key>Modules/Openpay.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		UtAYqKnvS8NEoGPTr4DbsWrD5ek=
+		WmOWXHFDMlIs8L17bjNFLOEFNyU=
 		</data>
 		<key>Modules/Openpay.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		3y/OnLNQclkXpGJkH21xaREeTZs=
+		5Tksikk08XBWP9QfYE7qYlBp0B0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -32,7 +32,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jju+vZ7FDb4B5SXBLPsN19GHHz0=
+			iZetbHk3V/n+iiWePGixeu6fAU4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -50,7 +50,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QXNmfXOApbXFFBoP+Ko8olroyTg=
+			yvo3JNVEl6lvVzZ9qcKCjVYDc0Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -68,7 +68,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YU+ABPqq/2AhX5kSUbc2tpE/MvM=
+			C1O4JhJIzbxp8VPEiObgmUNxR58=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -77,7 +77,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CHuPhhTQgZV1kAB6EjWGnWWbvS4=
+			HEfMEZ2kCGM++/KwOknxHnjhJeI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -89,11 +89,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			37GVzR6emkuOW1gU5TuaMxxyaEc=
+			5y3TReqqZbmwIyDWamUOIndN8u0=
 			</data>
 			<key>hash2</key>
 			<data>
-			9ZUM6yVWuakvTIBQI7yfWDH8ozU73uXOJnkaomsAepE=
+			W9bQGohwf0ZIuXDWxa9UymIbXk++1bSBES7OCvx4lzY=
 			</data>
 		</dict>
 		<key>Headers/Openpay.h</key>
@@ -111,22 +111,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UtAYqKnvS8NEoGPTr4DbsWrD5ek=
+			WmOWXHFDMlIs8L17bjNFLOEFNyU=
 			</data>
 			<key>hash2</key>
 			<data>
-			hTq1I3287hP3Fw5AcutSz9/QrfgdXImrSQ/BMRDf7vY=
+			gMJXFJFP9OVYirxU0MufGLtSDZ+BQG33jKNvTu2OcJE=
 			</data>
 		</dict>
 		<key>Modules/Openpay.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3y/OnLNQclkXpGJkH21xaREeTZs=
+			5Tksikk08XBWP9QfYE7qYlBp0B0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ozr3XaSwO70BxF/30FEdWEs2Ua0nEdTRbwvmDo2yGhQ=
+			exAVF9pDmw3R7cjlwpmHeobDSwFooRrCmZV9Pj4vRk4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -144,11 +144,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jju+vZ7FDb4B5SXBLPsN19GHHz0=
+			iZetbHk3V/n+iiWePGixeu6fAU4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Bx7kRE71Fe+fYzjfH/O5aegV9ADmyfTiZcshBzXOT1A=
+			+LCWns+LgN4CDKawJtiVXvvZIf8tiw4Cq9rWrxfPPsE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -170,11 +170,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QXNmfXOApbXFFBoP+Ko8olroyTg=
+			yvo3JNVEl6lvVzZ9qcKCjVYDc0Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			7J6+tQWmiR2mRW1/LzIJJ+I1b/lGvI2bnLjRclguKio=
+			e6GR8Xua2FbzFJQCkeYzDqu+WyvbD8349skrESokFbo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -196,11 +196,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YU+ABPqq/2AhX5kSUbc2tpE/MvM=
+			C1O4JhJIzbxp8VPEiObgmUNxR58=
 			</data>
 			<key>hash2</key>
 			<data>
-			8fNqJiEiWfYPkqNfQ3P9H+y8YjIIK+hqPcNGniRtU50=
+			R9Yg4xO5Z8ODL3epf8yXWRWTdmQ2x0jqnawa+VyZA0w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -209,11 +209,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CHuPhhTQgZV1kAB6EjWGnWWbvS4=
+			HEfMEZ2kCGM++/KwOknxHnjhJeI=
 			</data>
 			<key>hash2</key>
 			<data>
-			+R1LCPfbUV/CDbc+NEcpsJWECUXslJpgpj/P4jHBSKg=
+			8xgvtmHd6wF64BL2d1uv08FnNQVuLeMuFikjNdOYRA4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -221,7 +221,7 @@
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^.*</key>
+		<key>^</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -252,12 +252,24 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
+		<key>^</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
+		</dict>
+		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -293,6 +305,13 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
+		</dict>
+		<key>^[^/]+$</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

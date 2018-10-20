@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8C815893217B83E00018FB6C /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C815892217B83E00018FB6C /* PaymentViewController.swift */; };
-		8C815895217B84600018FB6C /* Openpay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C815894217B845F0018FB6C /* Openpay.framework */; };
-		8C815896217B84600018FB6C /* Openpay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8C815894217B845F0018FB6C /* Openpay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8C815899217B86930018FB6C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C815898217B86930018FB6C /* ResultViewController.swift */; };
 		8C81589E217B9CE50018FB6C /* Payment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C81589C217B9CE50018FB6C /* Payment.storyboard */; };
 		B16CAEC3217B77E200499898 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16CAEC2217B77E200499898 /* AppDelegate.swift */; };
@@ -20,16 +18,18 @@
 		B16CAED5217B822900499898 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16CAED4217B822900499898 /* CategoryRow.swift */; };
 		B16CAED7217B826400499898 /* BeerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16CAED6217B826400499898 /* BeerCell.swift */; };
 		B1F4DDF5217B9D490000CC7D /* BeersMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F4DDF4217B9D490000CC7D /* BeersMenu.storyboard */; };
+		B1F4DDFB217BA3290000CC7D /* Openpay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F4DDFA217BA3280000CC7D /* Openpay.framework */; };
+		B1F4DDFC217BA3290000CC7D /* Openpay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1F4DDFA217BA3280000CC7D /* Openpay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8C815897217B84600018FB6C /* Embed Frameworks */ = {
+		B1F4DDF9217BA2D10000CC7D /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8C815896217B84600018FB6C /* Openpay.framework in Embed Frameworks */,
+				B1F4DDFC217BA3290000CC7D /* Openpay.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,7 +38,6 @@
 
 /* Begin PBXFileReference section */
 		8C815892217B83E00018FB6C /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
-		8C815894217B845F0018FB6C /* Openpay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Openpay.framework; sourceTree = "<group>"; };
 		8C815898217B86930018FB6C /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		8C81589D217B9CE50018FB6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TomachelaApp/Base.lproj/Payment.storyboard; sourceTree = "<group>"; };
 		B16CAEBF217B77E200499898 /* TomachelaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomachelaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +50,7 @@
 		B16CAED4217B822900499898 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		B16CAED6217B826400499898 /* BeerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerCell.swift; sourceTree = "<group>"; };
 		B1F4DDF4217B9D490000CC7D /* BeersMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BeersMenu.storyboard; sourceTree = "<group>"; };
+		B1F4DDFA217BA3280000CC7D /* Openpay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Openpay.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C815895217B84600018FB6C /* Openpay.framework in Frameworks */,
+				B1F4DDFB217BA3290000CC7D /* Openpay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,8 +68,8 @@
 		B16CAEB6217B77E200499898 = {
 			isa = PBXGroup;
 			children = (
+				B1F4DDFA217BA3280000CC7D /* Openpay.framework */,
 				8C81589C217B9CE50018FB6C /* Payment.storyboard */,
-				8C815894217B845F0018FB6C /* Openpay.framework */,
 				B16CAEC1217B77E200499898 /* TomachelaApp */,
 				B16CAEC0217B77E200499898 /* Products */,
 			);
@@ -111,7 +111,7 @@
 				B16CAEBB217B77E200499898 /* Sources */,
 				B16CAEBC217B77E200499898 /* Frameworks */,
 				B16CAEBD217B77E200499898 /* Resources */,
-				8C815897217B84600018FB6C /* Embed Frameworks */,
+				B1F4DDF9217BA2D10000CC7D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
