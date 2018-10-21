@@ -201,7 +201,6 @@
 				8C815893217B83E00018FB6C /* PaymentViewController.swift in Sources */,
 				8FDDDC3E217B8B4800AFDCBE /* ProductStore.swift in Sources */,
 				8FDDDC3C217B863500AFDCBE /* Product.swift in Sources */,
-				B16CAEC5217B77E200499898 /* ViewController.swift in Sources */,
 				B16CAEC3217B77E200499898 /* AppDelegate.swift in Sources */,
 				8C815899217B86930018FB6C /* ResultViewController.swift in Sources */,
 				B144C32E2183DD4D008B3856 /* DetailViewController.swift in Sources */,
