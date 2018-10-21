@@ -11,7 +11,7 @@ class OrderPreViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.register(UINib(nibName: "ProductTableViewCell", bundle: nil), forCellReuseIdentifier: "productCell")
+        registerCellInCode()
         dynamicCellHeights()
         addSomePaddingToTheTop()
     }
@@ -35,4 +35,8 @@ class OrderPreViewController: UITableViewController {
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 65
     }
+    func registerCellInCode() {
+        tableView.register(UINib(nibName: "ProductTableViewCell", bundle: nil), forCellReuseIdentifier: "productCell")
+    }
+    
 }
