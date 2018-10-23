@@ -26,8 +26,8 @@ class Product: NSObject {
     convenience init(random: Bool = false) {
         if random {
             let beers = ["William Street Beer", "Birra Levante", "Ippon Matsu Beer", "TerraCotta", "Finísima", "Staropramen Lager – edición limitada", "Dolina – Moruba"]
-            let idx = arc4random_uniform(UInt32(beers.count))
-            let randomBeer = beers[Int(idx)]
+            let randomIndex = arc4random_uniform(UInt32(beers.count))
+            let randomBeer = beers[Int(randomIndex)]
             let randomNameOfBeer = "\(randomBeer)"
             let randomValue = Int(arc4random_uniform(50))
             let randomSerialNumber = UUID().uuidString.components(separatedBy: "-").first!
