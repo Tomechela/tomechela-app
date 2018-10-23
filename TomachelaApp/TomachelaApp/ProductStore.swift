@@ -12,14 +12,16 @@ import UIKit
 class ProductStore {
     var allProducts = [Product]()
     
+    init() {
+        for _ in 0..<15 {
+            createProduct()
+        }
+    }
+    
     @discardableResult func createProduct() -> Product {
         let newProduct = Product(random: true)
         allProducts.append(newProduct)
         return newProduct
     }
-    init() {
-        for _ in 0..<5 {
-            createProduct()
-        }
-    }
+    
 }
