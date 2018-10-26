@@ -26,6 +26,7 @@ class Product: NSObject {
     convenience init(random: Bool = false) {
         if random {
             let beers = ["William Street Beer", "Birra Levante", "Ippon Matsu Beer", "TerraCotta", "Finísima", "Staropramen Lager – edición limitada", "Dolina – Moruba"]
+//            let beersss: Dictionary = ["William Street Beer": 12, "Birra Levante": 24, "Ippon Matsu Beer": 34, "TerraCotta": 23, "Finísima": 14, "Staropramen Lager – edición limitada": 32, "Dolina – Moruba": 25]
             let randomIndex = arc4random_uniform(UInt32(beers.count))
             let randomBeer = beers[Int(randomIndex)]
             let randomNameOfBeer = "\(randomBeer)"
