@@ -17,7 +17,6 @@ class ProductStore {
             createProduct()
         }
     }
-    
     @discardableResult func createProduct() -> Product {
         let newProduct = Product(random: true)
         allProducts.append(newProduct)

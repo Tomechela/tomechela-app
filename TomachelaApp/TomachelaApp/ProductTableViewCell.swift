@@ -18,7 +18,7 @@ class ProductTableViewCell: UITableViewCell {
         productNameLabel.adjustsFontForContentSizeCategory = true
         valueLabel.adjustsFontForContentSizeCategory = true
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
