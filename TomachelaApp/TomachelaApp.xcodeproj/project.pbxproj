@@ -169,31 +169,47 @@
 		B16CAEC1217B77E200499898 /* TomachelaApp */ = {
 			isa = PBXGroup;
 			children = (
+				B16CAEC2217B77E200499898 /* AppDelegate.swift */,
 				8C8158A5217BA7BA0018FB6C /* model */,
+				B194628D2184E8B2002F3F77 /* view */,
+				B194628C2184E881002F3F77 /* controller */,
 				8C8158A0217BA64C0018FB6C /* network */,
 				8C81589F217BA6340018FB6C /* services */,
-				8C815892217B83E00018FB6C /* PaymentViewController.swift */,
-				B16CAED4217B822900499898 /* CategoryRow.swift */,
-				B16CAED6217B826400499898 /* BeerCell.swift */,
-				8FDDDC3B217B863500AFDCBE /* Product.swift */,
-				8FDDDC3F217B8C4C00AFDCBE /* ProductTableViewCell.swift */,
-				8FDDDC40217B8C4C00AFDCBE /* ProductTableViewCell.xib */,
-				8FDDDC3D217B8B4800AFDCBE /* ProductStore.swift */,
-				B16CAEC2217B77E200499898 /* AppDelegate.swift */,
-				8FC4B502217B82D300BF1EAF /* OrderPreViewController.swift */,
-				B16CAEC6217B77E200499898 /* MyMain.storyboard */,
 				B16CAEC9217B77E300499898 /* Assets.xcassets */,
-				B16CAECB217B77E300499898 /* LaunchScreen.storyboard */,
 				B16CAECE217B77E300499898 /* Info.plist */,
-				B1F4DDF4217B9D490000CC7D /* BeersMenu.storyboard */,
-				8C815898217B86930018FB6C /* ResultViewController.swift */,
-				B144C32D2183DD4D008B3856 /* DetailViewController.swift */,
-				C08043ED217BAA7E0097397D /* LoginView.storyboard */,
-				C014E2082183DD4100A2DFED /* LoginViewController.swift */,
-				C014E20A2183E90200A2DFED /* RegisterViewController.swift */,
-				B194628A2184E814002F3F77 /* BeerViewController.swift */,
 			);
 			path = TomachelaApp;
+			sourceTree = "<group>";
+		};
+		B194628C2184E881002F3F77 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FC4B502217B82D300BF1EAF /* OrderPreViewController.swift */,
+				B194628A2184E814002F3F77 /* BeerViewController.swift */,
+				C014E20A2183E90200A2DFED /* RegisterViewController.swift */,
+				C014E2082183DD4100A2DFED /* LoginViewController.swift */,
+				B144C32D2183DD4D008B3856 /* DetailViewController.swift */,
+				8C815898217B86930018FB6C /* ResultViewController.swift */,
+				8C815892217B83E00018FB6C /* PaymentViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		B194628D2184E8B2002F3F77 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8FDDDC3D217B8B4800AFDCBE /* ProductStore.swift */,
+				8FDDDC3B217B863500AFDCBE /* Product.swift */,
+				8FDDDC3F217B8C4C00AFDCBE /* ProductTableViewCell.swift */,
+				B16CAED6217B826400499898 /* BeerCell.swift */,
+				B16CAED4217B822900499898 /* CategoryRow.swift */,
+				B16CAECB217B77E300499898 /* LaunchScreen.storyboard */,
+				B1F4DDF4217B9D490000CC7D /* BeersMenu.storyboard */,
+				C08043ED217BAA7E0097397D /* LoginView.storyboard */,
+				B16CAEC6217B77E200499898 /* MyMain.storyboard */,
+				8FDDDC40217B8C4C00AFDCBE /* ProductTableViewCell.xib */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
