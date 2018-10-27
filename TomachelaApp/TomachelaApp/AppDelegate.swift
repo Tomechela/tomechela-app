@@ -19,18 +19,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         let storyboard = UIStoryboard(name: "MyMain", bundle: nil)
-//        let firstViewController = storyboard.instantiateViewController(withIdentifier: "beerMenuVC")
+        let firstViewController = storyboard.instantiateViewController(withIdentifier: "beerMenuVC")
         let secondViewController = storyboard.instantiateViewController(withIdentifier: "OrderPreView")
         let tabBarController = UITabBarController()
-        tabBarController.viewControllers = [secondViewController]
+        tabBarController.viewControllers = [firstViewController, secondViewController]
         window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()
-//        firstViewController.tabBarItem.title = "MENU"
+        firstViewController.tabBarItem.title = "MENU"
         secondViewController.tabBarItem.title = "ORDER"
-        // Create an ProductStore
-//        let productStore = ProductStore()
-//        let productsController = window!.rootViewController as! OrderPreViewController
-//        OrderPreViewController.productStore = productStore
+       
         return true
     }
     
