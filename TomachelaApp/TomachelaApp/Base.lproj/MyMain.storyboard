@@ -37,6 +37,14 @@
             </objects>
             <point key="canvasLocation" x="179" y="151"/>
         </scene>
+        <!--BeersMenu-->
+        <scene sceneID="IKQ-OD-Q7U">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="beerMenuVC" storyboardName="BeersMenu" id="FWQ-bb-3Dp" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2qa-o7-U4s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="789" y="-2"/>
+        </scene>
         <!--ResultController-->
         <scene sceneID="biB-59-gVv">
             <objects>
