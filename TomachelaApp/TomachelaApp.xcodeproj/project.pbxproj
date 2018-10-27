@@ -26,6 +26,8 @@
 		B1F4DDF5217B9D490000CC7D /* BeersMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F4DDF4217B9D490000CC7D /* BeersMenu.storyboard */; };
 		B1F4DDFB217BA3290000CC7D /* Openpay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F4DDFA217BA3280000CC7D /* Openpay.framework */; };
 		B1F4DDFC217BA3290000CC7D /* Openpay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1F4DDFA217BA3280000CC7D /* Openpay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C014E2092183DD4100A2DFED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C014E2082183DD4100A2DFED /* LoginViewController.swift */; };
+		C014E20B2183E90200A2DFED /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C014E20A2183E90200A2DFED /* RegisterViewController.swift */; };
 		C08043EE217BAA7E0097397D /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C08043ED217BAA7E0097397D /* LoginView.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +66,8 @@
 		B16CAED6217B826400499898 /* BeerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerCell.swift; sourceTree = "<group>"; };
 		B1F4DDF4217B9D490000CC7D /* BeersMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BeersMenu.storyboard; sourceTree = "<group>"; };
 		B1F4DDFA217BA3280000CC7D /* Openpay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Openpay.framework; sourceTree = "<group>"; };
+		C014E2082183DD4100A2DFED /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C014E20A2183E90200A2DFED /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		C08043ED217BAA7E0097397D /* LoginView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +122,8 @@
 				8C815898217B86930018FB6C /* ResultViewController.swift */,
 				B144C32D2183DD4D008B3856 /* DetailViewController.swift */,
 				C08043ED217BAA7E0097397D /* LoginView.storyboard */,
+				C014E2082183DD4100A2DFED /* LoginViewController.swift */,
+				C014E20A2183E90200A2DFED /* RegisterViewController.swift */,
 			);
 			path = TomachelaApp;
 			sourceTree = "<group>";
@@ -199,7 +205,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B16CAEC5217B77E200499898 /* BeerViewController.swift in Sources */,
+				C014E2092183DD4100A2DFED /* LoginViewController.swift in Sources */,
 				B16CAED7217B826400499898 /* BeerCell.swift in Sources */,
+				C014E20B2183E90200A2DFED /* RegisterViewController.swift in Sources */,
 				B16CAED5217B822900499898 /* CategoryRow.swift in Sources */,
 				8C815893217B83E00018FB6C /* PaymentViewController.swift in Sources */,
 				8FDDDC3E217B8B4800AFDCBE /* ProductStore.swift in Sources */,

@@ -12,19 +12,19 @@ import Openpay
 class PaymentViewController: UIViewController {
     
     var openpay: Openpay!
-    var sessionID: String!
-    var tokenID: String!
-    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
-    @IBOutlet weak var continueButton: UIButton!
-    @IBOutlet weak var totalAmount: UILabel!
+    var sessionID: String = ""
+    var tokenID: String = ""
+    
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView?
+    @IBOutlet weak var continueButton: UIButton?
+    @IBOutlet weak var totalAmount: UILabel?
     
     static let MERCHANT_ID = "mi93pk0cjumoraf08tqt"             // Generated in Openpay account registration
     static let API_KEY = "pk_92e31f7c77424179b7cd451d21fbb771"  // Generated in Openpay account registration
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        activityIndicator.isHidden = true
-        openpay = Openpay(withMerchantId: PaymentViewController.MERCHANT_ID, andApiKey: PaymentViewController.API_KEY, isProductionMode: false, isDebug: true)
+        activityIndicator?.isHidden = true
     }
     
     override func didReceiveMemoryWarning() {
@@ -32,13 +32,14 @@ class PaymentViewController: UIViewController {
     }
     
     func showBlackBox(show: Bool) {
-        activityIndicator.isHidden = !show
-        continueButton.isEnabled = !show
+        activityIndicator?.isHidden = !show
+        continueButton?.isEnabled = !show
     }
     
     
     @IBAction func sendData(_ sender: AnyObject) {
         showBlackBox(show: true)
+         openpay = Openpay(withMerchantId: PaymentViewController.MERCHANT_ID, andApiKey: PaymentViewController.API_KEY, isProductionMode: false, isDebug: true)
         openpay.createDeviceSessionId(successFunction: successSessionID, failureFunction: failSessionID)
         
     }
@@ -94,8 +95,6 @@ class PaymentViewController: UIViewController {
                 present(resultController, animated: true, completion: nil)
                 
                 resultController.textBox.text = "Listo! \nPasa con el bartender y \nTomaChela"
-                
-//                resultController.textBox.text = String(format: NSLocalizedString("token.success", bundle: Bundle.main, comment: "Error JSON"), sessionID, token.id)
             }
         }
     }
