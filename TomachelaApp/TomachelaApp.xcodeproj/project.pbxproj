@@ -13,7 +13,7 @@
 		8FDDDC41217B8C4C00AFDCBE /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDDDC3F217B8C4C00AFDCBE /* ProductTableViewCell.swift */; };
 		8FDDDC42217B8C4C00AFDCBE /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FDDDC40217B8C4C00AFDCBE /* ProductTableViewCell.xib */; };
 		B16CAEC3217B77E200499898 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16CAEC2217B77E200499898 /* AppDelegate.swift */; };
-		B16CAEC8217B77E200499898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16CAEC6217B77E200499898 /* Main.storyboard */; };
+		B16CAEC8217B77E200499898 /* MyMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16CAEC6217B77E200499898 /* MyMain.storyboard */; };
 		B16CAECA217B77E300499898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16CAEC9217B77E300499898 /* Assets.xcassets */; };
 		B16CAECD217B77E300499898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16CAECB217B77E300499898 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -26,7 +26,7 @@
 		8FDDDC40217B8C4C00AFDCBE /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
 		B16CAEBF217B77E200499898 /* TomachelaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomachelaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16CAEC2217B77E200499898 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B16CAEC7217B77E200499898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B16CAEC7217B77E200499898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MyMain.storyboard; sourceTree = "<group>"; };
 		B16CAEC9217B77E300499898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B16CAECC217B77E300499898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B16CAECE217B77E300499898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,13 +62,13 @@
 		B16CAEC1217B77E200499898 /* TomachelaApp */ = {
 			isa = PBXGroup;
 			children = (
-				B16CAEC2217B77E200499898 /* AppDelegate.swift */,
 				8FDDDC3B217B863500AFDCBE /* Product.swift */,
 				8FDDDC3F217B8C4C00AFDCBE /* ProductTableViewCell.swift */,
 				8FDDDC40217B8C4C00AFDCBE /* ProductTableViewCell.xib */,
 				8FDDDC3D217B8B4800AFDCBE /* ProductStore.swift */,
+				B16CAEC2217B77E200499898 /* AppDelegate.swift */,
 				8FC4B502217B82D300BF1EAF /* OrderPreViewController.swift */,
-				B16CAEC6217B77E200499898 /* Main.storyboard */,
+				B16CAEC6217B77E200499898 /* MyMain.storyboard */,
 				B16CAEC9217B77E300499898 /* Assets.xcassets */,
 				B16CAECB217B77E300499898 /* LaunchScreen.storyboard */,
 				B16CAECE217B77E300499898 /* Info.plist */,
@@ -137,7 +137,7 @@
 				B16CAECD217B77E300499898 /* LaunchScreen.storyboard in Resources */,
 				8FDDDC42217B8C4C00AFDCBE /* ProductTableViewCell.xib in Resources */,
 				B16CAECA217B77E300499898 /* Assets.xcassets in Resources */,
-				B16CAEC8217B77E200499898 /* Main.storyboard in Resources */,
+				B16CAEC8217B77E200499898 /* MyMain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,12 +159,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B16CAEC6217B77E200499898 /* Main.storyboard */ = {
+		B16CAEC6217B77E200499898 /* MyMain.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B16CAEC7217B77E200499898 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MyMain.storyboard;
 			sourceTree = "<group>";
 		};
 		B16CAECB217B77E300499898 /* LaunchScreen.storyboard */ = {

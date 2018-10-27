@@ -7,7 +7,7 @@ import Foundation
 import UIKit
 
 class OrderPreViewController: UITableViewController {
-    var productStore: ProductStore!
+    var productStore = ProductStore()
     
     override func viewDidLoad() {
         super.viewDidLoad()
