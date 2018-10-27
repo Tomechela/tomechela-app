@@ -7,8 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C0A36C2217BB24D00BE4452 /* Openpay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0A36C1217BB24D00BE4452 /* Openpay.framework */; };
+		8C0A36C3217BB24D00BE4452 /* Openpay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0A36C1217BB24D00BE4452 /* Openpay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8C4B76CA2184B5320005B760 /* OpenPayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B76C92184B5320005B760 /* OpenPayService.swift */; };
 		8C815893217B83E00018FB6C /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C815892217B83E00018FB6C /* PaymentViewController.swift */; };
 		8C815899217B86930018FB6C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C815898217B86930018FB6C /* ResultViewController.swift */; };
+		8C81589E217B9CE50018FB6C /* Payment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C81589C217B9CE50018FB6C /* Payment.storyboard */; };
+		8C8158A2217BA67F0018FB6C /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8158A1217BA67F0018FB6C /* Client.swift */; };
+		8C8158A4217BA7880018FB6C /* BeerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8158A3217BA7880018FB6C /* BeerService.swift */; };
+		8C8158A9217BA86A0018FB6C /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8158A8217BA86A0018FB6C /* DataSource.swift */; };
+		8C9B71C52183D98C0050B904 /* BeerProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B71C42183D98C0050B904 /* BeerProduct.swift */; };
+		8C9B71C72183DA5D0050B904 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B71C62183DA5D0050B904 /* Business.swift */; };
+		8C9B71C92183DACA0050B904 /* Staff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B71C82183DACA0050B904 /* Staff.swift */; };
+		8C9B71CB2183DB460050B904 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B71CA2183DB460050B904 /* Inventory.swift */; };
+		8C9B71CD2183DBD00050B904 /* Variant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B71CC2183DBD00050B904 /* Variant.swift */; };
+		8C9B71CF2183DC430050B904 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B71CE2183DC430050B904 /* TabItem.swift */; };
+		8C9B71D12183DC780050B904 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B71D02183DC780050B904 /* Tab.swift */; };
+		8C9B71D32183DCC40050B904 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B71D22183DCC40050B904 /* User.swift */; };
+		8C9B71D52183E5C10050B904 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B71D42183E5C10050B904 /* UserService.swift */; };
 		8FC4B503217B82D300BF1EAF /* OrderPreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4B502217B82D300BF1EAF /* OrderPreViewController.swift */; };
 		8FDDDC3C217B863500AFDCBE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDDDC3B217B863500AFDCBE /* Product.swift */; };
 		8FDDDC3E217B8B4800AFDCBE /* ProductStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDDDC3D217B8B4800AFDCBE /* ProductStore.swift */; };
@@ -23,21 +39,19 @@
 		B16CAED5217B822900499898 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16CAED4217B822900499898 /* CategoryRow.swift */; };
 		B16CAED7217B826400499898 /* BeerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16CAED6217B826400499898 /* BeerCell.swift */; };
 		B1F4DDF5217B9D490000CC7D /* BeersMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F4DDF4217B9D490000CC7D /* BeersMenu.storyboard */; };
-		B1F4DDFB217BA3290000CC7D /* Openpay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F4DDFA217BA3280000CC7D /* Openpay.framework */; };
-		B1F4DDFC217BA3290000CC7D /* Openpay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1F4DDFA217BA3280000CC7D /* Openpay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C014E2092183DD4100A2DFED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C014E2082183DD4100A2DFED /* LoginViewController.swift */; };
 		C014E20B2183E90200A2DFED /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C014E20A2183E90200A2DFED /* RegisterViewController.swift */; };
 		C08043EE217BAA7E0097397D /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C08043ED217BAA7E0097397D /* LoginView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B1F4DDF9217BA2D10000CC7D /* Embed Frameworks */ = {
+		8C0A36BD217BB0F700BE4452 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B1F4DDFC217BA3290000CC7D /* Openpay.framework in Embed Frameworks */,
+				8C0A36C3217BB24D00BE4452 /* Openpay.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,8 +59,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C0A36C1217BB24D00BE4452 /* Openpay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Openpay.framework; sourceTree = "<group>"; };
+		8C4B76C92184B5320005B760 /* OpenPayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenPayService.swift; sourceTree = "<group>"; };
 		8C815892217B83E00018FB6C /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		8C815898217B86930018FB6C /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		8C81589D217B9CE50018FB6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TomachelaApp/Base.lproj/Payment.storyboard; sourceTree = "<group>"; };
+		8C8158A1217BA67F0018FB6C /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		8C8158A3217BA7880018FB6C /* BeerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerService.swift; sourceTree = "<group>"; };
+		8C8158A8217BA86A0018FB6C /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		8C9B71C42183D98C0050B904 /* BeerProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerProduct.swift; sourceTree = "<group>"; };
+		8C9B71C62183DA5D0050B904 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		8C9B71C82183DACA0050B904 /* Staff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Staff.swift; sourceTree = "<group>"; };
+		8C9B71CA2183DB460050B904 /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		8C9B71CC2183DBD00050B904 /* Variant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variant.swift; sourceTree = "<group>"; };
+		8C9B71CE2183DC430050B904 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		8C9B71D02183DC780050B904 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		8C9B71D22183DCC40050B904 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8C9B71D42183E5C10050B904 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		8FC4B502217B82D300BF1EAF /* OrderPreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPreViewController.swift; sourceTree = "<group>"; };
 		8FDDDC3B217B863500AFDCBE /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		8FDDDC3D217B8B4800AFDCBE /* ProductStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductStore.swift; sourceTree = "<group>"; };
@@ -63,7 +92,6 @@
 		B16CAED4217B822900499898 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		B16CAED6217B826400499898 /* BeerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerCell.swift; sourceTree = "<group>"; };
 		B1F4DDF4217B9D490000CC7D /* BeersMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BeersMenu.storyboard; sourceTree = "<group>"; };
-		B1F4DDFA217BA3280000CC7D /* Openpay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Openpay.framework; sourceTree = "<group>"; };
 		C014E2082183DD4100A2DFED /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C014E20A2183E90200A2DFED /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		C08043ED217BAA7E0097397D /* LoginView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginView.storyboard; sourceTree = "<group>"; };
@@ -74,19 +102,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1F4DDFB217BA3290000CC7D /* Openpay.framework in Frameworks */,
+				8C0A36C2217BB24D00BE4452 /* Openpay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C0A36B5217BB01C00BE4452 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		8C81589F217BA6340018FB6C /* services */ = {
+			isa = PBXGroup;
+			children = (
+				8C8158A1217BA67F0018FB6C /* Client.swift */,
+				8C8158A3217BA7880018FB6C /* BeerService.swift */,
+				8C9B71D42183E5C10050B904 /* UserService.swift */,
+				8C4B76C92184B5320005B760 /* OpenPayService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		8C8158A0217BA64C0018FB6C /* network */ = {
+			isa = PBXGroup;
+			children = (
+				8C8158A8217BA86A0018FB6C /* DataSource.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		8C8158A5217BA7BA0018FB6C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8C9B71C42183D98C0050B904 /* BeerProduct.swift */,
+				8C9B71C62183DA5D0050B904 /* Business.swift */,
+				8C9B71C82183DACA0050B904 /* Staff.swift */,
+				8C9B71CA2183DB460050B904 /* Inventory.swift */,
+				8C9B71CC2183DBD00050B904 /* Variant.swift */,
+				8C9B71CE2183DC430050B904 /* TabItem.swift */,
+				8C9B71D02183DC780050B904 /* Tab.swift */,
+				8C9B71D22183DCC40050B904 /* User.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		B16CAEB6217B77E200499898 = {
 			isa = PBXGroup;
 			children = (
 				B1F4DDFA217BA3280000CC7D /* Openpay.framework */,
 				B16CAEC1217B77E200499898 /* TomachelaApp */,
 				B16CAEC0217B77E200499898 /* Products */,
+				8C0A36B5217BB01C00BE4452 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +171,9 @@
 		B16CAEC1217B77E200499898 /* TomachelaApp */ = {
 			isa = PBXGroup;
 			children = (
+				8C8158A5217BA7BA0018FB6C /* model */,
+				8C8158A0217BA64C0018FB6C /* network */,
+				8C81589F217BA6340018FB6C /* services */,
 				8C815892217B83E00018FB6C /* PaymentViewController.swift */,
 				B16CAED4217B822900499898 /* CategoryRow.swift */,
 				B16CAED6217B826400499898 /* BeerCell.swift */,
@@ -111,6 +184,7 @@
 				8FDDDC3D217B8B4800AFDCBE /* ProductStore.swift */,
 				B16CAEC2217B77E200499898 /* AppDelegate.swift */,
 				8FC4B502217B82D300BF1EAF /* OrderPreViewController.swift */,
+				8C81589C217B9CE50018FB6C /* Payment.storyboard */,
 				B16CAEC6217B77E200499898 /* MyMain.storyboard */,
 				B16CAEC9217B77E300499898 /* Assets.xcassets */,
 				B16CAECB217B77E300499898 /* LaunchScreen.storyboard */,
@@ -135,7 +209,7 @@
 				B16CAEBB217B77E200499898 /* Sources */,
 				B16CAEBC217B77E200499898 /* Frameworks */,
 				B16CAEBD217B77E200499898 /* Resources */,
-				B1F4DDF9217BA2D10000CC7D /* Embed Frameworks */,
+				8C0A36BD217BB0F700BE4452 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +232,7 @@
 				TargetAttributes = {
 					B16CAEBE217B77E200499898 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -202,17 +277,31 @@
 			files = (
 				B16CAEC5217B77E200499898 /* BeerViewController.swift in Sources */,
 				C014E2092183DD4100A2DFED /* LoginViewController.swift in Sources */,
+				8C4B76CA2184B5320005B760 /* OpenPayService.swift in Sources */,
+				B16CAEC5217B77E200499898 /* BeerViewController.swift in Sources */,
 				B16CAED7217B826400499898 /* BeerCell.swift in Sources */,
 				C014E20B2183E90200A2DFED /* RegisterViewController.swift in Sources */,
+				8C9B71D52183E5C10050B904 /* UserService.swift in Sources */,
+				8C9B71CB2183DB460050B904 /* Inventory.swift in Sources */,
+				8C9B71CD2183DBD00050B904 /* Variant.swift in Sources */,
 				B16CAED5217B822900499898 /* CategoryRow.swift in Sources */,
 				8C815893217B83E00018FB6C /* PaymentViewController.swift in Sources */,
 				8FDDDC3E217B8B4800AFDCBE /* ProductStore.swift in Sources */,
 				8FDDDC3C217B863500AFDCBE /* Product.swift in Sources */,
 				B16CAEC3217B77E200499898 /* AppDelegate.swift in Sources */,
+				8C9B71D32183DCC40050B904 /* User.swift in Sources */,
+				8C9B71C52183D98C0050B904 /* BeerProduct.swift in Sources */,
+				8C8158A2217BA67F0018FB6C /* Client.swift in Sources */,
 				8C815899217B86930018FB6C /* ResultViewController.swift in Sources */,
 				B144C32E2183DD4D008B3856 /* DetailViewController.swift in Sources */,
 				8FC4B503217B82D300BF1EAF /* OrderPreViewController.swift in Sources */,
 				8FDDDC41217B8C4C00AFDCBE /* ProductTableViewCell.swift in Sources */,
+				8C9B71C72183DA5D0050B904 /* Business.swift in Sources */,
+				8C9B71D12183DC780050B904 /* Tab.swift in Sources */,
+				8C8158A9217BA86A0018FB6C /* DataSource.swift in Sources */,
+				8C9B71C92183DACA0050B904 /* Staff.swift in Sources */,
+				8C9B71CF2183DC430050B904 /* TabItem.swift in Sources */,
+				8C8158A4217BA7880018FB6C /* BeerService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +458,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = mx.tomechela.TomachelaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -391,7 +480,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = mx.tomechela.TomachelaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

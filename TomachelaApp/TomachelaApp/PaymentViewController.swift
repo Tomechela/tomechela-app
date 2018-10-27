@@ -19,8 +19,8 @@ class PaymentViewController: UIViewController {
     @IBOutlet weak var continueButton: UIButton?
     @IBOutlet weak var totalAmount: UILabel?
     
-    static let MERCHANT_ID = "mi93pk0cjumoraf08tqt"             // Generated in Openpay account registration
-    static let API_KEY = "pk_92e31f7c77424179b7cd451d21fbb771"  // Generated in Openpay account registration
+    static let merchantID = "mi93pk0cjumoraf08tqt"             // Generated in Openpay account registration
+    static let apiKey = "pk_92e31f7c77424179b7cd451d21fbb771"  // Generated in Openpay account registration
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,7 +39,7 @@ class PaymentViewController: UIViewController {
     
     @IBAction func sendData(_ sender: AnyObject) {
         showBlackBox(show: true)
-         openpay = Openpay(withMerchantId: PaymentViewController.MERCHANT_ID, andApiKey: PaymentViewController.API_KEY, isProductionMode: false, isDebug: true)
+         openpay = Openpay(withMerchantId: PaymentViewController.merchantID, andApiKey: PaymentViewController.apiKey, isProductionMode: false, isDebug: true)
         openpay.createDeviceSessionId(successFunction: successSessionID, failureFunction: failSessionID)
         
     }
