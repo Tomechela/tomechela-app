@@ -25,6 +25,9 @@ class OrderPreViewController: UITableViewController {
         cell.valueLabel.text = "$\(product.valueInDollars)"
         return cell
     }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "loginViewSegue", sender: indexPath.row)
+    }
     func addSomePaddingToTheTop() {
         let statusBarHeight = UIApplication.shared.statusBarFrame.height
         let insets = UIEdgeInsets(top: statusBarHeight, left: 0, bottom: 0, right: 0)

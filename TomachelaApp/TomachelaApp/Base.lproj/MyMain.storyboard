@@ -32,6 +32,9 @@
                             <outlet property="delegate" destination="Pkt-nL-tai" id="YaY-wb-3Cz"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <segue destination="ro6-p7-6DW" kind="presentation" identifier="loginViewSegue" id="84c-oG-g4D"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E9n-6t-rrA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -45,13 +48,13 @@
             </objects>
             <point key="canvasLocation" x="789" y="-2"/>
         </scene>
-        <!--ResultController-->
-        <scene sceneID="biB-59-gVv">
+        <!--LoginView-->
+        <scene sceneID="W66-18-spR">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="ResultController" storyboardName="Payment" referencedIdentifier="ResultController" id="OBt-zh-uzh" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8UL-O4-ZXj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="LoginView" id="ro6-p7-6DW" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a4e-xY-jB7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1068" y="982.75862068965523"/>
+            <point key="canvasLocation" x="801" y="46"/>
         </scene>
     </scenes>
 </document>
