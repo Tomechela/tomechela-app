@@ -16,7 +16,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let storyboard = UIStoryboard(name: "MyMain", bundle: nil)
+//        let firstViewController = storyboard.instantiateViewController(withIdentifier: "beerMenuVC")
+        let secondViewController = storyboard.instantiateViewController(withIdentifier: "OrderPreView")
+        let tabBarController = UITabBarController()
+        tabBarController.viewControllers = [secondViewController]
+        window?.rootViewController = tabBarController
+        window?.makeKeyAndVisible()
+//        firstViewController.tabBarItem.title = "MENU"
+        secondViewController.tabBarItem.title = "ORDER"
+        // Create an ProductStore
+//        let productStore = ProductStore()
+//        let productsController = window!.rootViewController as! OrderPreViewController
+//        OrderPreViewController.productStore = productStore
         return true
     }
     
