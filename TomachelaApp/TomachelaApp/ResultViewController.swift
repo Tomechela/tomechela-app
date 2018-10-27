@@ -25,7 +25,7 @@ class ResultViewController: UIViewController {
     
     
     @IBAction func backAction(_ sender: AnyObject) {
-        self.dismiss(animated: true, completion: nil);
+        
     }
 
 }

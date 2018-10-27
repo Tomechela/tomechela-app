@@ -35,7 +35,7 @@ class OrderPreViewController: UITableViewController {
         tableView.scrollIndicatorInsets = insets
     }
     func dynamicCellHeights() {
-        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 65
     }
     func registerCellInCode() {
