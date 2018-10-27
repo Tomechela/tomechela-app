@@ -1,12 +1,12 @@
 import UIKit
 
-class ViewController: UIViewController {
+class BeerMenuViewController: UIViewController {
     var categories = ["Lager", "Ale", "Trigo", "Stout", "Belgas"]
 }
 
-extension ViewController : UITableViewDelegate { }
+extension BeerMenuViewController : UITableViewDelegate { }
 
-extension ViewController : UITableViewDataSource {
+extension BeerMenuViewController : UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return categories[section]
