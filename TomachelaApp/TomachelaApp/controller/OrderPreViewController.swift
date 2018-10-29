@@ -14,6 +14,7 @@ class OrderPreViewController: UITableViewController {
         registerCellInCode()
         dynamicCellHeights()
         addSomePaddingToTheTop()
+        settingUpOrderBarItem()
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return productStore.allProducts.count
@@ -40,6 +41,9 @@ class OrderPreViewController: UITableViewController {
     }
     func registerCellInCode() {
         tableView.register(UINib(nibName: "ProductTableViewCell", bundle: nil), forCellReuseIdentifier: "productCell")
+    }
+    func settingUpOrderBarItem(){
+        self.tabBarItem.title = "ORDER"
     }
     
 }

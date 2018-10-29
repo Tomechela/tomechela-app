@@ -26,7 +26,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()
         firstViewController.tabBarItem.title = "MENU"
-        secondViewController.tabBarItem.title = "ORDER"
        
         return true
     }
